@@ -182,10 +182,10 @@ footer p{
     grid-template-columns: 30% 30% 30%;
     row-gap: 20px;
     color: white;
+    
 }
 
 .grid div{
-  
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -204,7 +204,6 @@ footer p{
   flex-wrap: wrap;
   flex-direction: row-reverse;
   width: 80%;
-  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
@@ -214,7 +213,7 @@ footer p{
   margin-top: 10px;
   grid-template-columns: 40% 40%;
   color: white;
-  overflow: scroll;
+  overflow: hidden;
   
 }
 .grid1 div{
@@ -223,8 +222,7 @@ footer p{
   padding-right: 15px;
   padding-bottom: 20px;
   background-color:#344756;
-  border-radius: 20px;
-  color: white;
+  border-radius: 22px;
   font-size: 12px;
   overflow: scroll;
 }
@@ -246,7 +244,6 @@ footer p{
 .content {
   padding-left: 20px;
   padding-right: 190px;
-  color: white;
   text-align: justify;
   line-height: 2;
   overflow: scroll;
@@ -256,9 +253,9 @@ footer p{
   pointer-events: auto;
   cursor: pointer;
   padding-left: 60px;
-  color: #fdfdfd;
   padding-bottom: 15px;
   padding-right: 100px;
+  color: #fdfdfd;
 }
 
   .details summary> * {
@@ -283,6 +280,7 @@ footer p{
     margin-left: 10%;
     margin-right: 10%;
   }
+
 
 
   @media screen and (min-width: 800px){
